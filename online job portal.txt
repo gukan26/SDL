@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>JobPortal</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Jobs</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find Your Dream Job</h2>
+        <input type="text" placeholder="Search for jobs...">
+        <button>Search</button>
+    </section>
+
+    <!-- Job Listings -->
+    <section class="jobs">
+        <h2>Latest Jobs</h2>
+
+        <div class="job-card">
+            <h3>Frontend Developer</h3>
+            <p>Company: TechSoft</p>
+            <p>Location: Chennai</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Backend Developer</h3>
+            <p>Company: CodeWorks</p>
+            <p>Location: Bangalore</p>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Company: Creative Minds</p>
+            <p>Location: Hyderabad</p>
+            <button>Apply Now</button>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 JobPortal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
